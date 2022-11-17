@@ -1,6 +1,7 @@
 /*Import componentes*/
 @import url("../styles/event/event-description.css");
 @import url("../styles/event/event-form.css");
+@import url("../styles/benefits/benefits.css");
 /*variáveis*/
 :root {
     /*fontes*/
@@ -21,4 +22,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--montserrat);
+}
+
+/*body*/
+
+body{
+    padding-bottom: 500px;
 }

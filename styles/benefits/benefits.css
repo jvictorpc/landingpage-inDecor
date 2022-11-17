@@ -1,0 +1,49 @@
+/*Benefícios */
+
+#key-benefits h2 {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto ;
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--text-tertiary);
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1em ;
+    
+}
+
+#benefit-1{
+    background: url(../../img/sqr-1.jpg) center center ;
+    background-size: cover;
+}
+
+#benefit-2{
+    background: url(../../img/sqr-2.jpg) center center;
+    background-size: cover;
+}
+
+#benefit-3{
+    background: url(../../img/sqr-3.jpg) center center;
+    background-size: cover;
+}
