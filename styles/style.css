@@ -2,6 +2,8 @@
 @import url("../styles/event/event-description.css");
 @import url("../styles/event/event-form.css");
 @import url("../styles/benefits/benefits.css");
+@import url("../styles/location/location.css");
+
 /*variáveis*/
 :root {
     /*fontes*/
