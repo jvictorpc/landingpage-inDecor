@@ -46,3 +46,11 @@
 .btn:hover {
     opacity: 1;
 }
+
+
+@media screen and (max-width: 450px){
+    #subscription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+}

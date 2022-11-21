@@ -30,3 +30,8 @@
 }
 
 
+@media screen and (max-width: 450px){
+    btn {
+        opacity: 1;
+    }
+}

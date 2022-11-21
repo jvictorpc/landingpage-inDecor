@@ -47,3 +47,18 @@
     background: url(../../img/sqr-3.jpg) center center;
     background-size: cover;
 }
+
+
+@media screen and (max-width:450px){
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto ;
+        padding: 2em;
+    }
+
+    .benefit {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+}

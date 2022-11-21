@@ -25,3 +25,13 @@
     font-size: 1.2em;
 }
 
+@media screen and (max-width: 450px){
+    #cta {
+        text-align: center;
+    }
+    
+    #cta .btn {
+        width: 80%;
+    }
+
+}

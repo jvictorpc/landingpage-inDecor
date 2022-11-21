@@ -45,3 +45,33 @@
 .detail-description ul li:last-child{
     font-weight: bold;
 }
+
+@media screen and (max-width: 450px){
+    .detail{
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap :0;
+    }
+
+    .detail img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 {
+        display: none;
+    }
+
+    .detail-description{
+        padding: 0;
+    }
+
+    #detail-3 img{
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+}

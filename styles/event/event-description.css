@@ -40,3 +40,21 @@
     font-weight: bold;
     
 }
+
+
+@media screen and (max-width: 450px) {
+    #event-description {
+        flex-direction: column;
+        height: auto;
+    }   
+    
+    #disclaimer {
+        padding: 2em;
+    }
+
+    #disclaimer h2 {
+        margin-bottom: .5em;
+    }
+
+}
+
