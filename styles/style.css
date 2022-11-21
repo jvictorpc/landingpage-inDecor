@@ -5,6 +5,7 @@
 @import url("../styles/location/location.css");
 @import url("../styles/details/details.css");
 @import url("../styles/cta/cta.css");
+@import url("../styles/footer/footer.css");
 
 /*variáveis*/
 :root {
@@ -28,8 +29,4 @@
     font-family: var(--montserrat);
 }
 
-/*body*/
 
-body{
-    padding-bottom: 500px;
-}
